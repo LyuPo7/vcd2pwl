@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "LyuPo7_vcd2pwl"
-version = "0.1.0"
+version = "0.2.0"
 description = "Utility for convert .vcd files to .pwl files"
 authors = ["LyuPo <lport@frtk.ru>"]
 classifiers = [
@@ -16,6 +16,7 @@ python = "^3.6"
 argparse = "^1.4.0"
 pytest = "^6.1.0"
 pytest-cov = "^2.10.1"
+flake8 = "^3.8.3"
 
 [tool.poetry.dev-dependencies]
 
